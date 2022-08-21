@@ -21,7 +21,7 @@ app.listen(port,()=>{
   console.log("3000 Portunda Dinleniyor")
 })
 const Text = require('./models/text.js')
-const User = require('./models/users.js')
+
 //Statik
 app.use(express.static("public"));
 app.set("src", "path/to/views");
